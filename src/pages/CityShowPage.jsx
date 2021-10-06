@@ -13,6 +13,7 @@ class CityShowPage extends React.Component {
         posts: []
     }
 
+    //only mounts the data
     componentDidMount() {
         const cityId = this.props.match.params.cityId
 
@@ -24,6 +25,8 @@ class CityShowPage extends React.Component {
             })
         })
     }
+
+    //functions that will change the data
     createPost = (post, cityID)=> {        
         CityModel.newPost(cityID, post).then((res) => {
             let resPosts = this.state.posts    

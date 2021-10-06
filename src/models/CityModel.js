@@ -1,4 +1,4 @@
-const url = "http://localhost:4000/api/city"
+const url = " https://wayfarer-wanderer.herokuapp.com/api/city"
 class CityModel{
     static all(){
         return fetch(url)
