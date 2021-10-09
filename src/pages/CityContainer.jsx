@@ -38,7 +38,6 @@ class CityContainer extends Component{
         return(
             <div>
                 <CityList cityData={this.state.cityData} updateCityIndex={this.updateCityIndex}/>
-                {/* <CityShow cityData = {this.state.cityData[this.state.categoryIndex]}/>  */}
             </div>           
         )
     }

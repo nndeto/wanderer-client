@@ -7,7 +7,6 @@ function Header(){
                 <ul>
                     <li><Link to='/'><button className="nav-btn" id="btn"><span id="text">Home</span></button></Link></li>
                     <li><Link to = '/about'><button className="nav-btn" id="btn"><span id="text">About</span></button></Link></li>
-                    {/* <li><Link to='/cities'><button className="nav-btn" id="btn"><span id="text">All Cities</span></button></Link></li> */}
                 </ul>
             </nav>
         </header>

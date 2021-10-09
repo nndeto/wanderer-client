@@ -1,15 +1,7 @@
 import { Link } from 'react-router-dom'
 import '../css/CityList.css'
-import Header from '../components/Header'
 
 function CityList(props) {
-
-    //updates props, which triggers calling it on our city container page
-/*     function handleCityClick(idx) {
-        props.updateCityIndex(idx)
-        console.log("list element clicked" + idx)
-    } */
-
     //variable that loops through the city data and returns just a name for our "sidebar"
     //what's most important here is that it has an onClick function that will get our index back to our container 
     //to update that state
